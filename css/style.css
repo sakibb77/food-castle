@@ -55,6 +55,14 @@ header nav .mobile-nav-icon {
 
 /* =====================hero section ======================= */
 
+.hero-section {
+    background-color: #fdf2e9;
+}
+
+.hero-section.wrapper {
+    padding: 4.8rem 4.8rem;
+}
+
 .hero-section .hero {
     max-width: 130rem;
     display: grid;
@@ -62,4 +70,91 @@ header nav .mobile-nav-icon {
     align-items: center;
     gap: 4.8rem;
     margin: 0 auto;
+}
+
+.hero-text-box {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.hero-text-box .hero-description {
+    font-size: 2rem;
+    margin-top: -6.2rem;
+    line-height: 1.6;
+}
+
+.delivered-meals {
+    display: flex;
+    gap: 3.2rem;
+    align-items: center;
+}
+
+.delivered-meals p {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.delivered-meals p span {
+    font-weight: 700;
+    color: #cf711f;
+}
+
+.delivered-meals .delivered-img {
+    display: flex;
+}
+
+.delivered-meals .delivered-img img {
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    border: 4px solid #fdf2e9;
+    margin-left: -1.2rem;
+}
+
+
+/* =====================featured section ======================= */
+
+.featured-heading {
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: #767676;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem
+}
+
+.logos img {
+    height: 3rem;
+    width: auto;
+    filter: brightness(0);
+    opacity: 0.5;
+}
+
+
+/* =====================how section ======================= */
+
+.step-text-box .step-number {
+    font-size: 8.6rem;
+    font-weight: 700;
+    color: #ddd;
+}
+
+.step-text-box .step-description {
+    font-size: 1.8rem;
+    line-height: 1.8;
+}
+
+.how-section .step-img-box img {
+    width: 34%;
+}
+
+.how-section .step-img-box {
+    display: flex;
+    justify-content: center;
 }
